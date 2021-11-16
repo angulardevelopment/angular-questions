@@ -25,3 +25,13 @@ Use "disabled" keyword in the definition of the link.
 Use the stopPropagation() method in the event listener of the click event for the link
 Use the preventDefault() method in the event listener of the click event for the link.
 Use "empty" keyword in the definition of the link.
+
+-----------------
+How to execute 2 Observables in parallel
+ob1 = new Observable<string>(observer => {
+    console.log("observable 1 called");
+  });
+
+ob2 = new Observable<string>(observer => {
+    console.log("observable 2 called");
+  });
