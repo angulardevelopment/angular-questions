@@ -35,3 +35,19 @@ ob1 = new Observable<string>(observer => {
 ob2 = new Observable<string>(observer => {
     console.log("observable 2 called");
   });
+            
+            
+            
+            ---------------------
+            Interview Question-
+
+limit service to a particular component, child component.
+Simple Quiz-
+Question:
+When we add the provide metadata to a component, that means that the service injected will be:
+Options:
+a. A singleton throughout the application
+b. An instance just for the component but not for its children
+c. The same instance for the component and all its childs
+d. The same instance for the component and its childs that do not provide the service
+Leave a comment if you know the answer.
