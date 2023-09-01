@@ -45,3 +45,22 @@ By using json Server
 By using hdd-web-api
 By using sdd-web-api
 By using cache-memory-web-api
+
+```
+Rxjs operators
+Rxjs operators types- Utility, Transformation, Multicasting, Filtering, Error Handling, Creation, Conditional, Combination
+scrollpositionrestoration
+Resolver
+guards vs resolvers
+unit testing
+Monorepo vs monolithic
+Signals
+Circular dependencies
+Standalone components
+animations
+NgOptimizedImage
+services - useclass, usevalue, useexisting, usefactory
+Observables, Subjects, BehaviorSubject, ReplaySubject
+markForCheck() and detectChanges()
+Directive Composition API - hostDirectives
+```
