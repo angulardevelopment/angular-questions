@@ -1,5 +1,6 @@
 # angular-interview-questions
 ```
+zone and ngzone
 Q: limit service to a particular component, child component.
 
 If you provide it to a component it will only be available to that component and its children:
