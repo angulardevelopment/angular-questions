@@ -1,7 +1,6 @@
 # angular-interview-questions
-```
-zone and ngzone
-Q: limit service to a particular component, child component.
+
+- Q: limit service to a particular component, child component.
 
 If you provide it to a component it will only be available to that component and its children:
 
@@ -22,45 +21,61 @@ Provide the service as a class in a component, it must create one instance for t
   providers: [{ provide: Service, useClass: Service }]
 })
 
-Q:
-When we add the provide metadata to a component, that means that the service injected will be:
-Options:
-a. A singleton throughout the application
-b. An instance just for the component but not for its children
-c. The same instance for the component and all its childs
-d. The same instance for the component and its childs that do not provide the service
 
- Q:
-Which command reduces memory leaks and ensures that you receive the data only once?
+- Q: When we add the provide metadata to a component, that means that the service injected will be:
+Options:
+1. A singleton throughout the application
+2. An instance just for the component but not for its children
+3. The same instance for the component and all its childs
+4. The same instance for the component and its childs that do not provide the service
+
+ 
+- Q: Which command reduces memory leaks and ensures that you receive the data only once?
 array(1) take(1) collect(1) list(1)
 
- Q:
-you have an Angular application that restricts access to the user area with a password. This area's home component is protected using the CanActivate route guard, but it has child routes. How do you protect these child routes?
-The the home components route guard will protect the child routes.
-Use the CanDeactivate route guard.
-Use the CanActivateChild route guard.
-Use the CanActivate route guard.
 
- Q:
-How can you simulate a server and return mock data with the HTTP requests in Angular?
-By using json Server
-By using hdd-web-api
-By using sdd-web-api
-By using cache-memory-web-api
+Q: you have an Angular application that restricts access to the user area with a password. This area's home component is protected using the CanActivate route guard, but it has child routes. How do you protect these child routes?
+1. The the home components route guard will protect the child routes.
+2. Use the CanDeactivate route guard.
+3. Use the CanActivateChild route guard.
+4. Use the CanActivate route guard.
 
-Rxjs operators types- Utility, Transformation, Multicasting, Filtering, Error Handling, Creation, Conditional, Combination
-scrollpositionrestoration
-Resolver
-guards vs resolvers
-unit testing
-Monorepo vs monolithic
-Signals
-Circular dependencies
-Standalone components
-animations
-NgOptimizedImage
-services - useclass, usevalue, useexisting, usefactory
-Observables, Subjects, BehaviorSubject, ReplaySubject
-markForCheck() and detectChanges()
-Directive Composition API - hostDirectives
-```
+
+Q: How can you simulate a server and return mock data with the HTTP requests in Angular?
+1. By using json Server
+2. By using hdd-web-api
+3. By using sdd-web-api
+4. By using cache-memory-web-api
+
+- Rxjs operators types- Utility, Transformation, Multicasting, Filtering, Error Handling, Creation, Conditional, Combination
+* scrollpositionrestoration
++ debouncing & throttling
+- guards vs resolvers
+- unit testing
+- Monorepo vs monolithic
+- Signals
+- Circular dependencies
+- Standalone components
+- animations
+- NgOptimizedImage
+- services - useclass, usevalue, useexisting, usefactory
+- Observables, Subjects, BehaviorSubject, ReplaySubject
+- markForCheck() and detectChanges()
+- Directive Composition API - hostDirectives
+- zone and ngzone
+- UI component library
+- Figma to HTML/CSS
+- Flex vs grid 
+- CSS vs SCSS
+- navigation
+- custom directives
+- changedetection
+- bubbling and capturing
+- performance
+- secure the code
+- ngrx
+- state management - input output emitters, services
+- Migration
+- copying objects in JS
+- how to handle immutability 
+- control styles- viewencapsulation
