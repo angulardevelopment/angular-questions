@@ -79,3 +79,5 @@ Q: How can you simulate a server and return mock data with the HTTP requests in 
 - copying objects in JS
 - how to handle immutability 
 - control styles- viewencapsulation
+- how to handle tokens, refresh tokens - for authentication 
+- solid princlple
