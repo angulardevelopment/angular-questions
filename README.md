@@ -40,13 +40,6 @@ Q: you have an Angular application that restricts access to the user area with a
 3. Use the CanActivateChild route guard.
 4. Use the CanActivate route guard.
 
-
-Q: How can you simulate a server and return mock data with the HTTP requests in Angular?
-1. By using json Server
-2. By using hdd-web-api
-3. By using sdd-web-api
-4. By using cache-memory-web-api
-
 - Rxjs operators types- Utility, Transformation, Multicasting, Filtering, Error Handling, Creation, Conditional, Combination
 * scrollpositionrestoration
 + debouncing & throttling
