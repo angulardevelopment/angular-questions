@@ -33,13 +33,6 @@ Options:
 - Q: Which command reduces memory leaks and ensures that you receive the data only once?
 array(1) take(1) collect(1) list(1)
 
-
-Q: you have an Angular application that restricts access to the user area with a password. This area's home component is protected using the CanActivate route guard, but it has child routes. How do you protect these child routes?
-1. The the home components route guard will protect the child routes.
-2. Use the CanDeactivate route guard.
-3. Use the CanActivateChild route guard.
-4. Use the CanActivate route guard.
-
 - Rxjs operators types- Utility, Transformation, Multicasting, Filtering, Error Handling, Creation, Conditional, Combination
 * scrollpositionrestoration
 + debouncing & throttling
