@@ -183,4 +183,12 @@ Q145. Can you use angular interpolation in the place of property binding?
 Q146. What is two-way data binding in Angular? What are the disadvantages of two-way data binding?
 Q147. What is the difference between (change) vs. (ngModelChange) events in Angular?
 Q148. What is the difference between [ngModel] vs. [(ngModel)] in Angular?
+
+Scenario: Your team is developing a feature that ranks AI model responses in real-time based on specific criteria. The feature must be integrated into an existing Angular application, ensuring it doesnâ€™t impact the app's overall performance.
+
+Question: How would you integrate this new feature into the existing Angular app? What performance considerations would you keep in mind, and how would you test the feature to ensure it functions as expected?
+
+Scenario: While working on a JavaScript project, you encounter an issue where the applicationâ€™s memory usage spikes during data processing, leading to slow performance and crashes.
+
+Question: How would you diagnose and resolve this memory issue? What tools or techniques would you use to identify the root cause, and how would you optimize the code to prevent this from happening in the future?
 ```
