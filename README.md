@@ -188,7 +188,17 @@ Scenario: Your team is developing a feature that ranks AI model responses in rea
 
 Question: How would you integrate this new feature into the existing Angular app? What performance considerations would you keep in mind, and how would you test the feature to ensure it functions as expected?
 
+
+
 Scenario: While working on a JavaScript project, you encounter an issue where the applicationâ€™s memory usage spikes during data processing, leading to slow performance and crashes.
 
 Question: How would you diagnose and resolve this memory issue? What tools or techniques would you use to identify the root cause, and how would you optimize the code to prevent this from happening in the future?
+
+Q152. What is an Injector Tree? What are the different types of Injector Hierarchies in Angular?					
+Q153. What is ModuleInjector Tree in Angular? How can you register services at the module level?					
+Q154. What is the use of @Injectable decorator in Angular? What is root-level Service Registration?	
+Q03. What is the difference between React vs. Angular?					
+Q04. What are the similarities between React and Angular?					
+Q05. Why one should use React over Angular or vice-versa?					
+Q06. What does React have over Angular?	
 ```
