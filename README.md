@@ -3,24 +3,24 @@
 - Q: limit service to a particular component, child component.
 
 If you provide it to a component it will only be available to that component and its children:
-
+```
 @Component({
   selector: "component",
   providers: [Service]
 })
-
+```
 A way to limit scope to a module or component:
-
+```
 @Injectable({ providedIn: HelloComponent })
 export class Service {}
-
+```
 Provide the service as a class in a component, it must create one instance for that component, and you can remove the provider from the module.
-
+```
 @Component({
   selector: "component",
   providers: [{ provide: Service, useClass: Service }]
 })
-
+```
 
 - Q: When we add the provide metadata to a component, that means that the service injected will be:
 Options:
@@ -66,7 +66,45 @@ array(1) take(1) collect(1) list(1)
 - how to handle immutability 
 - control styles- viewencapsulation
 - how to handle tokens, refresh tokens - for authentication 
-- solid princlple
+- solid principle
+
+- Choose the correct output for the following code snippet.
+```
+<ng-template [ngIf]=true>
+<div>
+True
+</div>
+</ng-template>
+```
+A True
+B Wrong Syntax for nglf
+C Nothing will be printed
+D Compilation Error
+
+- Consider the below given code snippet and choose the correct route that
+will be loaded if we hit "artist/1234"
+```
+const routes: Routes = [
+];
+{path: ''
+redirectTo: 'home', pathMatch: 'full'},
+{path: 'find', redirectTo: 'search'},
+{path: 'home', component: HomeComponent},
+{
+path: movie/:movieId',
+component: MovieComponent,
+children: [
+{path: '', redirectTo: 'tracks'}, (1)
+{path: 'tracks', component: MovieListComponent}, (2)
+{path: 'albums', component: MovieAlbumListComponent}, (3)
+]
+},
+{ path: '**' , component: HomeComponent}
+```
+A Inside Movie Component MovieTracklist Component will be loaded
+B Only the MovieTracklist will be loaded
+C Inside Home Component MovieTracklist Component will be loaded
+D Only Home component will be loaded
 
 ```
 
