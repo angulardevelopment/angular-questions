@@ -1,24 +1,16 @@
-### Angular motivation
 
-### what you like and do not like about Angular
 
-### If you are in charge, what do you want to change/add?
-
-### Future plans and activities
-
-### General product related questions
-
-### Recent Releases
+### Recent Releases 20
 Angular 20: Released in May 2025. This version focused on stabilizing experimental features like effect linked signal APIs, render hooks (after every render), and SSR features like incremental hydration and server route APIs. It also brought quality-of-life improvements like TypeScript 5.8 support, hot module reload by default, type-checked host bindings, and a schematic to clean up unused imports.
 
-### new release
+### New release 21
 Angular 21: Expected around November 2025
 Upcoming features in new v21 version-
 signal forms
 angular aria
 
 
-### ready for production  - stable features
+### Ready for production  - stable features
 - zoneless
 - effect linked signal 
 - incremental hydration
@@ -32,10 +24,21 @@ angular aria
 - devtools - signal visualization, routes, defer
 - new performance panel
 - enter, leave- animation get better
+- Signals API: Core reactivity primitives, including signal(), computed(), effect(), linkedSignal(), and signal-based input() and queries are stable. This allows for fine-grained reactivity, reducing unnecessary re-renders.
+- Zoneless Change Detection: As of v20.2/v21, zoneless change detection is stable and the default for new applications, eliminating the need for zone.js, leading to smaller bundle sizes and faster performance.
+- Built-in Control Flow: Modern, JavaScript-like template syntax (@if, @for, @switch) is stable and the preferred method over legacy *ngIf and *ngFor directives.
+- Standalone Components by Default: New applications are generated using standalone components, directives, and pipes by default, simplifying the architecture and making NgModules optional.
+- SSR and Hydration Improvements: Incremental hydration is stable, which improves performance and Core Web Vitals by allowing components to hydrate on demand. Event replay is also enabled by default for new projects using SSR.
+- Vite and ESBuild Integration: The CLI uses Vite and ESBuild for the application builder by default, significantly improving build and serve times.
+- Vitest as Default Test Runner: Vitest is now the default, stable test runner for new projects, replacing Karma. 
 
-
-### experimental 
-vitest support
+### Experimental Features  (Developer preview )
+- Signal Forms: An experimental new approach to form handling that manages form state using signals, aiming for better type safety, less boilerplate, and a more reactive experience.
+- Angular Aria: Launched in developer preview, this provides a set of headless, accessible UI primitives (like accordions, menus, tabs) that developers can style themselves, ensuring accessibility (WCAG standards) at the framework level.
+- httpResource() API: An experimental signal-based API for handling asynchronous data fetching, simplifying state management for loading, error, and resolved states.
+- Navigation API Integration: Experimental integration with the modern browser Navigation API to provide better control over browser navigation and improved memory management for detached route injectors.
+- AI-Powered Development Tools: Features like the experimental "modernize" tool in the MCP (Managed Code Platform) Server and guides on angular.dev/AI help AI tools like LLMs generate modern, best-practice Angular code.
+- New Animations System: Experimental animate.enter and animate.leave functions for simpler, CSS-based entry and exit animations directly in component templates, without needing the full @angular/animations package
 
 ### AI
 - angular.dev/ai - prompts and context
@@ -43,8 +46,6 @@ vitest support
 - ai studio - prototype creation - configure angular
 - web code gen scorer - created by google - ai model, - open source tool
 - mcp server - your agent interact with project
-
-### developer preview 
 
 
 ### I. Core Technical Depth (Angular Expertise)
