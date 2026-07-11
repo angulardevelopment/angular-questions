@@ -1,9 +1,25 @@
 
+## angular v22 is released
+Signal Forms: Composable, Reactive and Ready to go are added
+Angular Aria: Accessible primitives to build apps for all users npm install @angular/aria
+Asynchronous Reactivity: a new frontier - resource API, httpResource 
+Charting the Agentic Future
+Experimental WebMCP
+API improvements- Angular Router Enhancements
+The new @Service decorator
+Asynchronous Dependency injection is here
+TypeScript 6 Support:
+Comments are now supported in HTML elements
+Spread syntax available in templates
+More robust and less boilerplate with @switch
+Arrow Functions in Templates
+Changes to changeDetection
+template errors @boundary, a new API 
 
-### Recent Releases 20
+### v20
 Angular 20: Released in May 2025. This version focused on stabilizing experimental features like effect linked signal APIs, render hooks (after every render), and SSR features like incremental hydration and server route APIs. It also brought quality-of-life improvements like TypeScript 5.8 support, hot module reload by default, type-checked host bindings, and a schematic to clean up unused imports.
 
-### New release 21
+### v21
 Angular 21: Expected around November 2025
 Upcoming features in new v21 version-
 signal forms
