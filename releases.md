@@ -47,6 +47,11 @@ angular aria
 - SSR and Hydration Improvements: Incremental hydration is stable, which improves performance and Core Web Vitals by allowing components to hydrate on demand. Event replay is also enabled by default for new projects using SSR.
 - Vite and ESBuild Integration: The CLI uses Vite and ESBuild for the application builder by default, significantly improving build and serve times.
 - Vitest as Default Test Runner: Vitest is now the default, stable test runner for new projects, replacing Karma. 
+- Local template variables
+- deferrable views
+- ngoptimizedimage
+- @let @defer
+- Dependency injection
 
 ### Experimental Features  (Developer preview )
 - Signal Forms: An experimental new approach to form handling that manages form state using signals, aiming for better type safety, less boilerplate, and a more reactive experience.
