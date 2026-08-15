@@ -250,6 +250,36 @@ Effects created in a service vs effects created inside components—how are they
 What is a reactive context?
 Give one real-time example where you would use an equality function with signals
 Implement local state management using signals and a service 
+
+Common Angular schematics
+
+Tools-
+ng update @angular/cli @angular/core @angular/material
+new build system
+ng update @angular/cli --name use-application-builder
+
+ng generate --help
+ng new cli-test-project --style=sass
+ng new angular-docker --ssr false --routing true --style scss
+ng help
+ng generate directive|pipe|service|class|guard|interface|enum|module --project projectname
+
+migration commands
+ng generate @angular/core:control-flow
+ng generate @angular/core:standalone
+ng generate @angular/core:inject
+ng generate @angular/core:route-lazy-loading
+ng generate @angular/core:signal-input-migration
+ng generate @angular/core:output-migration
+ng generate @angular/core:signal-queries-migration
+ng generate @angular/core:cleanup-unused-imports
+ng generate @angular/core:self-closing-tag
+ng generate @angular/core:ngclass-to-class
+ng generate @angular/core:ngstyle-to-style
+ng generate @angular/core:router-testing-module-migration
+ng generate @angular/core:common-to-standalone
+
+How to handle deep component trees
 ```
 
 
